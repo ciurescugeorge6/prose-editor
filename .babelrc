@@ -1,0 +1,15 @@
+{
+  "presets": ["env", "react"],
+  "plugins": [
+    "transform-export-extensions",
+    "transform-class-properties",
+    ["transform-runtime", {
+      "helpers": true,
+      "polyfill": true,
+      "regenerator": true,
+    }],
+    "flow-react-proptypes",
+    "transform-object-rest-spread",
+    "transform-flow-strip-types"
+  ]
+}
